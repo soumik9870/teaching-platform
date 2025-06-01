@@ -12,7 +12,7 @@ import Link from "next/link";
 
 
 interface CompanionsListProps {
-    titles: string;
+    title: string;
     companions?: Companion[];
     classNames?: string;
 }
